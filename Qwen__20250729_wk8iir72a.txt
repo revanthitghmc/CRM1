@@ -1,0 +1,6 @@
+edusphere-crm/
+├── backend/
+├── frontend/
+├── uploads/
+├── .gitignore
+└── README.md

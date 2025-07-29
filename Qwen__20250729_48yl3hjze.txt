@@ -1,0 +1,66 @@
+edusphere-crm/
+│
+├── backend/
+│   ├── controllers/
+│   │   ├── authController.js
+│   │   ├── studentController.js
+│   │   ├── documentController.js
+│   │   └── agentController.js
+│   ├── models/
+│   │   ├── User.js
+│   │   ├── StudentProfile.js
+│   │   └── Document.js
+│   ├── routes/
+│   │   ├── authRoutes.js
+│   │   ├── studentRoutes.js
+│   │   ├── documentRoutes.js
+│   │   └── agentRoutes.js
+│   ├── middleware/
+│   │   └── authMiddleware.js
+│   ├── config/
+│   │   └── db.js
+│   ├── utils/
+│   │   └── mailer.js
+│   ├── server.js
+│   └── package.json
+│
+├── frontend/
+│   ├── app/
+│   │   ├── auth/
+│   │   │   ├── register/page.jsx
+│   │   │   └── login/page.jsx
+│   │   ├── student/
+│   │   │   ├── dashboard/page.jsx
+│   │   │   └── layout.jsx
+│   │   ├── agent/
+│   │   │   ├── dashboard/page.jsx
+│   │   │   └── [id]/page.jsx
+│   │   ├── layout.jsx
+│   │   └── page.jsx
+│   ├── components/
+│   │   ├── ui/
+│   │   │   ├── Tabs.jsx
+│   │   │   ├── Button.jsx
+│   │   │   ├── Input.jsx
+│   │   │   └── Card.jsx
+│   │   ├── DocumentUploader.jsx
+│   │   ├── ApplicationTracker.jsx
+│   │   └── StatusPill.jsx
+│   ├── public/
+│   │   ├── icons/
+│   │   │   ├── passport.svg
+│   │   │   ├── education.svg
+│   │   │   └── doc.svg
+│   ├── styles/
+│   │   └── globals.css
+│   ├── .env.local
+│   ├── tailwind.config.js
+│   ├── package.json
+│   └── next.config.js
+│
+├── uploads/
+│   └── documents/   ← Will be created on upload
+│
+├── .gitignore
+├── README.md
+└── package.json     ← Optional root-level script runner
